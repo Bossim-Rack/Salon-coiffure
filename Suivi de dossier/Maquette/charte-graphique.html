@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Salon Nadia — Charte graphique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="charte-graphique.css">
+</head>
+<body>
+<div class="wrap">
+ 
+  <div class="masthead">
+    <span class="eyebrow">Salon Nadia — Identité visuelle</span>
+    <h1>Charte graphique</h1>
+    <p>Ambiance élégante &amp; féminine — Retenu pour la page d'accueil : beaucoup de blanc, une palette rosée/bordeaux discrète, une typographie serif pour les titres qui apporte le côté salon chic, et une sans-serif légère pour le confort de lecture.</p>
+  </div>
+ 
+  <section class="block">
+    <div class="block-head"><span class="num">01</span><h2>Palette de couleurs</h2></div>
+    <div class="swatches">
+      <div class="swatch">
+        <div class="chip" style="background:var(--rose)"></div>
+        <div class="info">
+          <div class="name">Rose principal</div>
+          <div class="hex">#B98289</div>
+          <div class="use">Boutons principaux, liens actifs, éléments de marque</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="chip" style="background:var(--bordeaux)"></div>
+        <div class="info">
+          <div class="name">Bordeaux</div>
+          <div class="hex">#6E2C3B</div>
+          <div class="use">Titres importants, boutons secondaires, hover</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="chip" style="background:var(--or)"></div>
+        <div class="info">
+          <div class="name">Or discret</div>
+          <div class="hex">#C9A66B</div>
+          <div class="use">Étoiles avis, icônes, petits détails premium</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="chip" style="background:var(--ivoire);border-bottom:1px solid var(--border)"></div>
+        <div class="info">
+          <div class="name">Ivoire (fond)</div>
+          <div class="hex">#FAF6F3</div>
+          <div class="use">Fond principal des pages</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="chip" style="background:var(--ink)"></div>
+        <div class="info">
+          <div class="name">Encre (texte)</div>
+          <div class="hex">#2B2426</div>
+          <div class="use">Texte principal, jamais de noir pur</div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="block">
+    <div class="block-head"><span class="num">02</span><h2>Typographie</h2></div>
+ 
+    <div class="font-cards">
+      <div class="font-card">
+        <div class="label">Titres — Playfair Display</div>
+        <div class="big">Élégance &amp; savoir-faire</div>
+        <div class="name">Serif, usage : H1 à H4, accroches</div>
+      </div>
+      <div class="font-card">
+        <div class="label">Texte courant — Poppins</div>
+        <div class="big" style="font-family:'Poppins',sans-serif;font-weight:400;font-size:22px;">Confort de lecture au quotidien</div>
+        <div class="name">Sans-serif, usage : paragraphes, boutons, navigation</div>
+      </div>
+    </div>
+ 
+    <div style="margin-top:30px">
+      <div class="type-row">
+        <div class="sample h-sample-1">Prenez soin de vous</div>
+        <div class="meta">H1 · Playfair Display 600 · 38px</div>
+      </div>
+      <div class="type-row">
+        <div class="sample h-sample-2">Nos prestations</div>
+        <div class="meta">H2 · Playfair Display 600 · 28px</div>
+      </div>
+      <div class="type-row">
+        <div class="sample h-sample-3">Une équipe de professionnels</div>
+        <div class="meta">H3 · Playfair Display 600 · 20px</div>
+      </div>
+      <div class="type-row">
+        <div class="sample h-sample-4">"Un accueil chaleureux, un résultat impeccable."</div>
+        <div class="meta">Citation / accroche · Playfair italic · 15px</div>
+      </div>
+      <div class="type-row">
+        <div class="sample body-sample">Le salon Nadia vous accueille dans un cadre pensé pour votre bien-être. Notre équipe de professionnels vous propose des prestations sur-mesure, dans le respect de votre image.</div>
+        <div class="meta">Corps de texte · Poppins 300 · 14px</div>
+      </div>
+      <div class="type-row">
+        <div class="sample body-sample small">Horaires, mentions légales, informations complémentaires.</div>
+        <div class="meta">Texte secondaire · Poppins 300 · 12px</div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="block">
+    <div class="block-head"><span class="num">03</span><h2>Composants</h2></div>
+    <div class="comp-grid">
+      <div>
+        <div class="comp-group">
+          <div class="label">Boutons</div>
+          <div class="row-flex">
+            <span class="btn btn-primary">Réserver maintenant</span>
+            <span class="btn btn-secondary">En savoir plus</span>
+            <span class="btn btn-ghost">Annuler</span>
+          </div>
+        </div>
+        <div class="comp-group">
+          <div class="label">Tag / statut</div>
+          <div class="row-flex">
+            <span class="tag">Avis validé</span>
+            <span class="tag" style="background:#EFE7DA;color:var(--or)">En attente</span>
+          </div>
+        </div>
+        <div class="comp-group">
+          <div class="label">Champ de formulaire</div>
+          <div class="input-demo">votre@email.com</div>
+        </div>
+      </div>
+      <div>
+        <div class="comp-group">
+          <div class="label">Carte avis client</div>
+          <div class="card-demo">
+            <div class="stars">★★★★★</div>
+            <div class="line" style="width:100%"></div>
+            <div class="line" style="width:70%"></div>
+            <div class="line" style="width:40%;margin-bottom:0"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="block">
+    <div class="block-head"><span class="num">04</span><h2>Espacements &amp; formes</h2></div>
+    <div class="misc-grid">
+      <div>
+        <div class="label" style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--gray);margin-bottom:12px;">Rayons de bordure</div>
+        <div class="radius-demo">
+          <div class="box" style="border-radius:3px"><span>3px · boutons, champs</span></div>
+          <div class="box" style="border-radius:6px"><span>6px · cartes</span></div>
+          <div class="box" style="border-radius:50%"><span>Cercle · avatars</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="label" style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--gray);margin-bottom:12px;">Principe</div>
+        <p class="body-sample small" style="max-width:none">Formes discrètes, angles peu arrondis (3–6px) : on garde un rendu net et sobre, cohérent avec l'ambiance élégante. Le cercle est réservé aux photos de profil / avatars.</p>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="block" style="margin-bottom:0">
+    <div class="block-head"><span class="num">05</span><h2>Aperçu appliqué — Hero page d'accueil</h2></div>
+    <div class="preview">
+      <div class="preview-chrome"><span></span><span></span><span></span></div>
+      <div class="preview-body">
+        <div class="plogo">SALON NADIA</div>
+        <nav>
+          <span>Accueil</span><span>Prestations</span><span>Réserver</span><span>Contact</span><span>Connexion</span>
+        </nav>
+        <div class="eyebrow">Salon de coiffure</div>
+        <h2>L'élégance prend soin de vous</h2>
+        <p class="lead">Coupe, couleur, soins — une équipe de professionnels à votre écoute, dans un cadre pensé pour votre confort.</p>
+        <span class="btn btn-primary">Prendre rendez-vous</span>
+      </div>
+    </div>
+  </section>
+ 
+</div>
+</body>
+</html>
